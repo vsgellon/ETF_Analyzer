@@ -1,10 +1,9 @@
-# San Francisco Neighborhood Value Analyzer
-This app alow the user to analyze property value by neighborhood in San Francisco. Using an interactive map once can easily locate neighborhoods with high price per square foot and gross rent. 
-
+# ETF Ananlyzer Web Application
+This app anables investors to analyze an ETF and individial stocks via a web-based application
 
 ## Technologies
 
-This is a python command-line interface application which uses python 3.7
+This is a python command-line interface application which uses python 3.7. THis app uses SQLAlchemy and Voila which are open source libraries for Python. For visualizations this app uses PyViz
 
 ---
 
@@ -15,13 +14,18 @@ import pandas as pd
 import hvplot.pandas
 Install the PyViz packages by using the conda install command as follows:
 conda install -c pyviz hvplot geoviews
+For SQLAlchemy and Voila libraries se the install command as follows:
+SQLAlchemy
+pip install SQLAlchemy
+Voila
+conda install -c conda-forge voila
 
 ---
 
 ## Usage
 
 
-To use this application simply clone the repository at https://github.com/vsgellon/SF-Property-Analyzer and run **san_francisco_housing.ipynb** with:
+To use this application simply clone the repository at https://github.com/vsgellon/ETF_Analyzer and run **etf_analyzer.ipynb** with:
 
 ```python
 python app.py
